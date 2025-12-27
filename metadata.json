@@ -1,0 +1,7 @@
+{
+  "name": "VisionDraw ",
+  "description": "A high-performance virtual whiteboard that uses your webcam and hand tracking to draw in the air. Powered by MediaPipe and Gemini for intelligent sketch analysis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
