@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Finger Drawing Web App 🎨👆
 
-# Run and deploy your AI Studio app
+A fun and interactive web app that lets you draw in the air using your finger movements tracked by your webcam.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+- Real-time hand tracking and finger detection
+- Draw directly on the screen with simple gestures
+- Responsive and easy-to-use interface
+- Built with React and TypeScript
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- [Node.js](https://nodejs.org/) installed on your computer
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/finger-drawing-web.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd finger-drawing-web
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the app:
+   ```bash
+   npm start
+   ```
+5. Open your browser and go to `http://localhost:3000` to use the app.
+
+## Technologies Used
+
+- React  
+- TypeScript  
+- WebRTC (for webcam access)  
+- CSS for styling  
+
+## Contributing
+
+Feel free to open issues or submit pull requests. Suggestions and improvements are welcome!
+
+## License
+
+This project is licensed under the MIT License.
